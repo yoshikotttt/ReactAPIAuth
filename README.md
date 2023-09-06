@@ -1,9 +1,10 @@
-# React + Vite
+# React/Laravel Sanctumでのapi認証
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+できること
+- 新規登録（Register.jsx）
+- ログイン (Login.jsx)
+- トークンが必要なページへの遷移 (ProtectedRouteTest.jsx)
+- ログアウト（Logout.jsx  buttonでの実装）
 
-Currently, two official plugins are available:
+ルーティング、リダイレクトは不十分です
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ReactAPIAuth
